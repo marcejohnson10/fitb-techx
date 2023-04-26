@@ -6,6 +6,15 @@
 
 version: 2
 
+sources:
+  - name: raw
+    database: raw  
+    schema: jaffle_shop  
+    tables:
+      - name: orders
+      - name: customers
+
+
 #models:
 #    - name: my_first_dbt_model
 #      description: "A starter dbt model"
