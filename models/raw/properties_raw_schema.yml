@@ -8,11 +8,11 @@ version: 2
 
 sources:
   - name: raw
-    database: SNOWFLAKE_SAMPLE_DATA 
-    schema: TPCH_SF1  
+    database: DBT_DEMO_PROJECT 
+    schema: RAW  
     tables:
       - name: orders
-      - name: customers
+#      - name: customers
 
 
 #models:
