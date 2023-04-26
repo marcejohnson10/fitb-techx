@@ -8,8 +8,8 @@ version: 2
 
 sources:
   - name: raw
-    database: raw  
-    schema: jaffle_shop  
+    database: SNOWFLAKE_SAMPLE_DATA 
+    schema: TPCH_SF1  
     tables:
       - name: orders
       - name: customers
