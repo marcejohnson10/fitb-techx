@@ -1,0 +1,2 @@
+select * 
+from DBT_DEMO_PROJECT.RAW.ORG_DIM_SRC_RAW
